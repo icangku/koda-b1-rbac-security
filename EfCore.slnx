@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/EfCore.Api/EfCore.csproj" />
+    <Project Path="src/EfCore.Application/EfCore.Application.csproj" />
+    <Project Path="src/EfCore.Domain/EfCore.Domain.csproj" />
+    <Project Path="src/EfCore.Infrastructure/EfCore.Infrastructure.csproj" />
+  </Folder>
+</Solution>

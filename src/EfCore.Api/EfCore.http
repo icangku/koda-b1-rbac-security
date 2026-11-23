@@ -1,0 +1,54 @@
+@baseUrl = http://localhost:5021
+
+GET {{baseUrl}}/weatherforecast/
+Accept: application/json
+
+### Search
+GET {{baseUrl}}/api/v1/products/search?search=Dummy&min_price=50000&max_price=80000&page=2&page_size=5&sort=price_desc
+Origin: http://localhost:5173
+Accept: application/json
+
+### Get Product All
+GET {{baseUrl}}/api/v1/products
+Accept: application/json
+
+### Get Product By Code
+GET {{baseUrl}}/api/v1/products/P001
+Accept: application/json
+
+### POST Product
+POST {{baseUrl}}/api/v1/products
+Accept: application/json
+Content-Type: application/json
+
+{
+    "code": "P999",
+    "name": "Kecap",
+    "price": 3000,
+    "stock": 12,
+    "categoryId": 2
+}
+
+### UPDATE DATA
+PUT {{baseUrl}}/api/v1/products/P001
+Accept: application/json
+Content-Type: application/json
+
+{
+    "name": "Remote",
+    "price": 35000,
+    "stock": 20,
+    "category": "TV"
+}
+
+### Delete Product
+DELETE {{baseUrl}}/api/v1/products/P001
+Accept: application/json
+
+### Active Product
+GET {{baseUrl}}/api/v1/products/active/P002
+Accept: application/json
+
+### Deactive Product
+GET {{baseUrl}}/api/v1/products/deactive/P002
+Accept: application/json

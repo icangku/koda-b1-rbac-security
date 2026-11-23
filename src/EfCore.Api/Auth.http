@@ -1,0 +1,40 @@
+@baseUrl = http://localhost:5021
+
+### Register
+POST {{baseUrl}}/api/v1/auth/register
+Content-Type: application/json
+
+{
+	"email": "budi@gmail.com",
+	"password": "QWErTYU1!",
+	"displayName": "Budi Sasonto"
+}
+
+### Login
+# @name login
+POST {{baseUrl}}/api/v1/auth/login
+Content-Type: application/json
+Accept: application/json
+
+{
+	"email": "budi@gmail.com",
+	"password": "QWErTYU1!"
+}
+
+### Me
+GET {{baseUrl}}/api/v1/auth/me
+Content-Type: application/json
+Accept: application/json
+Authorization: Bearer {{login.response.body.$.accessToken}}
+
+### REFRESH TOKEN
+POST {{baseUrl}}/api/v1/auth/refresh
+Origin: http://localhost:5173
+Cookie: efcore_refresh=F10EED75E764923CE62F1F0A442B9DE7F13EE375D9408870AF5994DDF495592C
+Accept: application/json
+
+### LOGOUT
+POST {{baseUrl}}/api/v1/auth/logout
+Origin: http://localhost:5173
+Cookie: efcore_refresh=0F1C27396370AB4A20D1C52E8C8A7583BB6B79781FCD93C7F7901B0FFBF81740
+Accept: application/json

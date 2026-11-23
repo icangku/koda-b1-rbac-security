@@ -1,0 +1,15 @@
+/home/alvin/Desktop/koda/net/koda-b1-efcore-minitask3/src/EfCore.Application/obj/Debug/net10.0/EfCore.Application.csproj.AssemblyReference.cache
+/home/alvin/Desktop/koda/net/koda-b1-efcore-minitask3/src/EfCore.Application/obj/Debug/net10.0/EfCore.Application.GeneratedMSBuildEditorConfig.editorconfig
+/home/alvin/Desktop/koda/net/koda-b1-efcore-minitask3/src/EfCore.Application/obj/Debug/net10.0/EfCore.Application.AssemblyInfoInputs.cache
+/home/alvin/Desktop/koda/net/koda-b1-efcore-minitask3/src/EfCore.Application/obj/Debug/net10.0/EfCore.Application.AssemblyInfo.cs
+/home/alvin/Desktop/koda/net/koda-b1-efcore-minitask3/src/EfCore.Application/obj/Debug/net10.0/EfCore.Application.csproj.CoreCompileInputs.cache
+/home/alvin/Desktop/koda/net/koda-b1-efcore-minitask3/src/EfCore.Application/bin/Debug/net10.0/EfCore.Application.deps.json
+/home/alvin/Desktop/koda/net/koda-b1-efcore-minitask3/src/EfCore.Application/bin/Debug/net10.0/EfCore.Application.dll
+/home/alvin/Desktop/koda/net/koda-b1-efcore-minitask3/src/EfCore.Application/bin/Debug/net10.0/EfCore.Application.pdb
+/home/alvin/Desktop/koda/net/koda-b1-efcore-minitask3/src/EfCore.Application/bin/Debug/net10.0/EfCore.Domain.dll
+/home/alvin/Desktop/koda/net/koda-b1-efcore-minitask3/src/EfCore.Application/bin/Debug/net10.0/EfCore.Domain.pdb
+/home/alvin/Desktop/koda/net/koda-b1-efcore-minitask3/src/EfCore.Application/obj/Debug/net10.0/EfCore.A.C06D80E0.Up2Date
+/home/alvin/Desktop/koda/net/koda-b1-efcore-minitask3/src/EfCore.Application/obj/Debug/net10.0/EfCore.Application.dll
+/home/alvin/Desktop/koda/net/koda-b1-efcore-minitask3/src/EfCore.Application/obj/Debug/net10.0/refint/EfCore.Application.dll
+/home/alvin/Desktop/koda/net/koda-b1-efcore-minitask3/src/EfCore.Application/obj/Debug/net10.0/EfCore.Application.pdb
+/home/alvin/Desktop/koda/net/koda-b1-efcore-minitask3/src/EfCore.Application/obj/Debug/net10.0/ref/EfCore.Application.dll
